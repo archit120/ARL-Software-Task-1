@@ -1,0 +1,3 @@
+There are two binaries in the package, arl_talker and arl_listener. arl_talker is responsible for reading the video, finding the center, publishing messages and calling service when required. arl_listener only listens to the messages and responds to service calls. Plot has been generated using rqt_plot. 
+
+First image is thresholded to find the brown regiion surrounding chess board, then image is cropped through the extremeties of the theresholded region. Finally findchessboardcorners function is used to find the corner and then the cetner is calculated by looping over all points in chessboard.
